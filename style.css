@@ -3,4 +3,22 @@ body {
     margin: 0;
     background-color: black;
     color: white;
+    overflow: hidden;
+  }
+
+  .main{
+    display: flex;
+    height: 100vh;
+  }
+
+  .sidebar{
+    background-color: red
+  }
+  
+  .main-content{
+    background-color: yellow;
+  }
+
+  .music-player{
+    background-color: green;
   }
