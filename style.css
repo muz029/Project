@@ -25,6 +25,7 @@ body {
   background-color: #121212;
   flex: 1;
   overflow: auto;
+  padding: 0 1.5rem 0 1.5rem;
 }
 
 .music-player{
@@ -178,9 +179,12 @@ a{
   }
 }
 
+
 .card{
   background-color: #232323;
-  width: 150px;
+  width: 300px;
+  border-radius: 0.5rem;
+  padding: 0.75rem;
 }
 
 .card-container{
@@ -188,5 +192,16 @@ a{
 }
 
 .card-img{
-  
+  width: 100%;
+  border-radius: 0.5rem;
+
+}
+
+.card-title{
+  font-weight: 600;
+}
+
+.card-info{
+  font-size: 0.85rem;
+  opacity: 0.8;
 }
