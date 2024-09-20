@@ -172,5 +172,21 @@ a{
 }
 
 @media (max-width: 1000px) {
+  .hide{
+    display: none;
+
+  }
+}
+
+.card{
+  background-color: #232323;
+  width: 150px;
+}
+
+.card-container{
+  display: flex;
+}
+
+.card-img{
   
 }
