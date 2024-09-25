@@ -152,6 +152,7 @@ a{
   justify-content:space-between;
   align-items: center;
   padding: 1rem 0 1rem 0;
+  z-index: 10;
 }
 
 .sticky-nav-icons{
@@ -184,11 +185,13 @@ a{
   background-color: #232323;
   width: 300px;
   border-radius: 0.5rem;
-  padding: 0.75rem;
+  padding: 1rem;
+  margin-left: 1.5rem;
 }
 
-.card-container{
+.cards-container{
   display: flex;
+  flex-wrap: wrap;
 }
 
 .card-img{
@@ -204,4 +207,17 @@ a{
 .card-info{
   font-size: 0.85rem;
   opacity: 0.8;
+}
+
+.footer{
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.line{
+  width: 90%;
+  height: 50%;
+  border-top: 1px solid white;
 }
