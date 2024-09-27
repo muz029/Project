@@ -230,7 +230,14 @@ a{
 
 .album{
   width: 25%;
+  display: flex;
 }
+
+.pd{
+  margin: 10px;
+  margin-top: 10px;
+}
+
 
 .player{
   width:50%;
@@ -239,6 +246,7 @@ a{
 
 .controls{
   width: 25%;
+
   
 }
 
@@ -270,4 +278,19 @@ a{
   appearance: none;
   background-color: transparent;
   cursor: pointer;
+}
+
+.progress-bar::-webkit-slider-runnable-track{
+  background-color: #ddd;
+  border-radius: 100px;
+  height: 0.2rem;
+}
+
+.progress-bar::-webkit-slider-thumb{
+  appearance: none;
+  height: 16px;
+  width: 16px;
+  background-color: #1bd750;
+  border-radius: 16px;
+  margin-top: -6px;
 }
